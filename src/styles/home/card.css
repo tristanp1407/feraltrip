@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  position: relative;
+  max-height: 800px;
+  height: 97vh;
+  width: 95vw;
+  max-width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(14, 54, 54, 0.61);
+  z-index: 5;
+}
+
+.exitCard {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.cardTitle {
+  margin: 150px auto 10px auto;
+  font-weight: 400;
+  font-size: 35px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.cardTripDetails {
+  width: 90%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.cardTripDetails div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tripComment {
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+}
+
+.detailPageBtn,
+.detailPageBtn visited {
+  height: 40px;
+  width: max-content;
+  padding: 0 15px;
+  min-width: 140px;
+  border-radius: 30px;
+  background-color: white;
+  opacity: 0.75;
+  color: red;
+  margin: auto 0 50px 0;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  transition: all 100ms ease-in-out;
+}
+
+.detailPageBtn:hover {
+  opacity: 0.85;
+}

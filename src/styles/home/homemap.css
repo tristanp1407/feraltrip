@@ -1,0 +1,107 @@
+.mapContainer {
+  position: relative;
+  height: max-content;
+  width: max-content;
+  max-width: 90vw;
+  background-size: cover;
+  /* overflow: hidden; */
+  margin-bottom: 7vh;
+  margin-top: auto;
+}
+
+.mapContainer img {
+  height: auto;
+  max-height: 80vh;
+  width: auto;
+  max-width: 100%;
+}
+
+.locationPin {
+  position: absolute;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 400ms ease-in-out;
+}
+
+/* .locationPin:hover {
+  transform: scale(1.1);
+} */
+
+.locationPin img {
+  height: auto;
+  width: 20px;
+}
+
+.locationPin p {
+  color: white;
+  font-size: 16px;
+  margin: 0 5px;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  transition: letter-spacing 200ms ease-in-out;
+  /*max-width: 90px;
+  */
+  -webkit-transition: letter-spacing 300ms ease-in-out;
+  -moz-transition: letter-spacing 200ms ease-in-out;
+  -ms-transition: letter-spacing 200ms ease-in-out;
+  -o-transition: letter-spacing 200ms ease-in-out;
+  -webkit-transition: letter-spacing 200ms ease-in-out;
+}
+
+.locationPin p:hover {
+  letter-spacing: 1px;
+}
+
+/* peak district  --   peak district  --   peak district  --   peak district  --    */
+
+.pinPeakD {
+  top: 67%;
+  right: 35%;
+  transform: translate(100%, -100%);
+}
+
+/* london --  london --  london --  london --  london --  london --  london --  london --   */
+
+.pinLondon {
+  top: 82%;
+  left: 87%;
+  /* filter: grayscale(1); */
+  transform: translate(-100%, -100%);
+}
+
+.circleLondon {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid rgba(156, 156, 156, 0.589);
+}
+
+/* .pinLondon img {
+  height: auto;
+  width: 12px;
+} */
+
+.pinLondon p {
+  font-size: 13px;
+}
+
+/* snowdonia -- snowdonia -- snowdonia -- snowdonia -- snowdonia -- snowdonia -- snowdonia --  */
+
+.pinSnowdonia {
+  top: 68%;
+  left: 57%;
+  transform: translate(-100%, -100%);
+}
+
+.pinWitterings {
+  top: 89%;
+  left: 83%;
+  transform: translate(-100%, -100%);
+}

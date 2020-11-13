@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.textStrong {
+  font-size: 30px;
+  font-weight: 600;
+  width: 80%;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.textStandard {
+  margin-bottom: 15px;
+  width: 250px;
+  font-weight: 300;
+  color: white;
+}
+
+.infoText {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  font-size: 120%;
+  width: 150px;
+  margin-top: 25px;
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+.home {
+  background-image: linear-gradient(#0b142a, #112647);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.textWrapper {
+  position: absolute;
+  top: 10vh;
+  left: 10%;
+}
+
+.mapWrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+}
+
+.cardCont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.peakdistrict {
+  position: absolute;
+  padding: 5px;
+  margin: 20px;
+  z-index: 1;
+}

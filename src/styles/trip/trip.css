@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* hero -- hero -- hero -- hero -- hero -- hero -- hero --  */
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin: auto auto 20px auto;
+}
+
+.tripDetails {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.tripDetails div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  margin-bottom: 8px;
+}
+
+.tripDescription {
+  width: 70%;
+  max-width: 350px;
+  text-align: center;
+  margin: 20px auto auto auto;
+  font-weight: 200;
+}
+
+.tripDetailBold {
+  font-weight: 600;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.tripDetailBold div {
+  margin-top: 10px;
+}
+
+.iconCont {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-evenly;
+  max-width: 125px;
+  height: content;
+  width: 100%;
+  margin: initial;
+}
+.iconCont div {
+  height: 35px;
+  width: 35px;
+  background-size: cover;
+  margin: initial;
+}
+
+/* -- cost breakdown -- cost breakdown -- cost breakdown -- cost breakdown -- cost breakdown  */
+
+.costBreakdownIcon {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.costBreakdownCont {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* text section -- text section -- text section --  */
+
+.textSection {
+  height: 170px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: black !important;
+}
+
+.textSection p {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+/* tiles --- tiles --- tiles --- tiles --- tiles --- tiles ---   */
+
+.tilesCont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  background-position: center;
+  color: white;
+  padding: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tileTitle {
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tileTitleIcon {
+  height: 45px;
+  width: 45px;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+.tileInfo {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tileBoldText {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 5px 0 7px 0;
+}
+
+.tileButton {
+  height: 40px;
+  width: max-content;
+  padding: 0 15px;
+  min-width: 150px;
+  margin-top: auto;
+  border: none;
+  background-color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.75;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* details graphic --- details graphic --- details graphic --- details graphic --- */
+
+.tripGraphic {
+  display: flex;
+  flex-direction: row;
+  height: 820px;
+  width: 100vw;
+}
+
+.timing {
+  display: flex;
+  justify-content: right;
+  width: 40vw;
+  background-color: #0b142a;
+  padding: 20px;
+}
+
+.timing img {
+  height: 100%;
+  width: 80px;
+  margin-left: auto;
+}
+
+.doing {
+  display: flex;
+  justify-content: left;
+  width: 60%;
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  padding: 20px;
+}
+
+.doing img {
+  height: 100%;
+  width: 150px;
+}

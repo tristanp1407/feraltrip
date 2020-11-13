@@ -1,0 +1,91 @@
+.navBar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100vw;
+  max-width: 100%;
+  height: 7vh;
+  max-height: 75px;
+  background-color: #0b142a;
+  opacity: 0.95;
+  z-index: 3;
+}
+
+.navText {
+  color: white;
+  margin: auto;
+}
+.navText p {
+  padding-left: 43px;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: rgb(209, 66, 66);
+}
+
+.burger {
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+}
+
+.dropDown {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 93vh;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #0b142a;
+  opacity: 0.95;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  z-index: 1;
+}
+
+.dropDown p {
+  margin-left: 30px;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: color 200ms ease-in-out;
+}
+
+.dropDown p:hover {
+  color: rgb(170, 83, 67);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.transition-enter {
+  opacity: 0.1;
+}
+
+.transition-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.transition-exit {
+  opacity: 1;
+}
+
+.transition-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
