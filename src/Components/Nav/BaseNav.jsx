@@ -1,13 +1,6 @@
 import React, { Component } from "react";
 import "../../styles/nav/basenav.css";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 class BaseNav extends Component {
   state = {};
