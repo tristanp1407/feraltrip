@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import closeCross from "../../../assets/icons/close-cross.png";
-import CostBreakdown from "../../../styles/trip/costbreakdown.css";
 import "../../../styles/home/home.css";
 
 class ComingSoon extends Component {
