@@ -11,8 +11,10 @@
   padding: 15px;
 }
 
-.costCard p {
+.costCard p,
+.costCard h2 {
   margin: 5px 0;
+  color: white;
 }
 
 .closeCross {

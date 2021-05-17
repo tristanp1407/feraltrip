@@ -16,18 +16,24 @@ class homeMap extends Component {
           <p>Peak District</p>
         </div>
 
-        <div className="locationPin pinLondon">
+        <div onClick={this.props.comingSoon} className="locationPin pinLondon">
           <p>London</p>
           <div className="circleLondon"></div>
           {/* <img src={pin} alt="location pin" /> */}
         </div>
 
-        <div className="locationPin pinSnowdonia">
+        <div
+          onClick={this.props.comingSoon}
+          className="locationPin pinSnowdonia"
+        >
           <p>Snowdonia</p>
           <img src={pin} alt="location pin" />
         </div>
 
-        <div className="locationPin pinWitterings">
+        <div
+          onClick={this.props.comingSoon}
+          className="locationPin pinWitterings"
+        >
           <p>Wittering</p>
           <img src={pin} alt="location pin" />
         </div>
